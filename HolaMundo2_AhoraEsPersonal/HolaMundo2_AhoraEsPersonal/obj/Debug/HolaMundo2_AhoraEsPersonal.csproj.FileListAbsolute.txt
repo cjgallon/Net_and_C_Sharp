@@ -1,0 +1,7 @@
+C:\Users\cgallon\Downloads\Proyectos\HolaMundo2_AhoraEsPersonal\HolaMundo2_AhoraEsPersonal\obj\Debug\HolaMundo2_AhoraEsPersonal.csproj.AssemblyReference.cache
+C:\Users\cgallon\Downloads\Proyectos\HolaMundo2_AhoraEsPersonal\HolaMundo2_AhoraEsPersonal\obj\Debug\HolaMundo2_AhoraEsPersonal.csproj.CoreCompileInputs.cache
+C:\Users\cgallon\Downloads\Proyectos\HolaMundo2_AhoraEsPersonal\HolaMundo2_AhoraEsPersonal\bin\Debug\HolaMundo2_AhoraEsPersonal.exe.config
+C:\Users\cgallon\Downloads\Proyectos\HolaMundo2_AhoraEsPersonal\HolaMundo2_AhoraEsPersonal\bin\Debug\HolaMundo2_AhoraEsPersonal.exe
+C:\Users\cgallon\Downloads\Proyectos\HolaMundo2_AhoraEsPersonal\HolaMundo2_AhoraEsPersonal\bin\Debug\HolaMundo2_AhoraEsPersonal.pdb
+C:\Users\cgallon\Downloads\Proyectos\HolaMundo2_AhoraEsPersonal\HolaMundo2_AhoraEsPersonal\obj\Debug\HolaMundo2_AhoraEsPersonal.exe
+C:\Users\cgallon\Downloads\Proyectos\HolaMundo2_AhoraEsPersonal\HolaMundo2_AhoraEsPersonal\obj\Debug\HolaMundo2_AhoraEsPersonal.pdb
