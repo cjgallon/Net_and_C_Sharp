@@ -219,6 +219,74 @@ namespace HolaMundo2_AhoraEsPersonal
 
         }
 
+        static void MatrizEscalonada()
+        {
+            //Estas matrices no mantienen el mismo tamaño en cada uno de sus lados, como se ve en la siguiente declaración
+
+            //tipo [][] nombre = new tipo [filas][]
+            double[][] ventas = new double[4][];
+
+            //declaración de las matrices internas e inicialización
+            ventas[0] = new double[] { 1, 2, 3 };
+            ventas[1] = new double[] { 4, 5 };
+            ventas[2] = new double[] { 6, 7, 8, 9 };
+            ventas[3] = new double[] { 10 };
+
+            //O también, de esta forma mas compacta
+
+            double[][] ventas2 =
+            {
+                new double [] { 1, 2, 3 },
+                new double [] { 4, 5 },
+                new double [] { 6, 7, 8, 9 },
+                new double [] { 10 }
+
+            };
+
+            //Para acceder a UNO de sus elementos, se hace de la siguiente forma
+            Console.WriteLine("En la fila 0, el elemento 1 es: {0}", ventas[0][0]);
+            Console.WriteLine("En la fila 1, el elemento 1 es: {0}", ventas[1][1]);
+            Console.WriteLine("En la fila 2, el elemento 2 es: {0}", ventas[2][2]);
+            Console.WriteLine("En la fila 3, el elemento 0 es: {0}", ventas[3][0]);
+
+            //Para recorrer la totalidad de la matriz escalonada, hacemos lo siguiente:
+
+            for (int i = 0; i < ventas.Length; i++)
+            {
+                Console.WriteLine("índice: {0}, ",i);
+                for (int j = 0; j < ventas[i].Length; j++)
+                {
+                    Console.WriteLine("Elemento {0}: {1}", j, ventas[i][j]);
+                }
+            }
+
+        }
+
+        static void MatrizPropiedadLength()
+        {
+
+            //Esta propiedad devuelve el tamaño de la matriz
+            double[][] ventas2 =
+{
+                new double [] { 1, 2, 3 },
+                new double [] { 4, 5 },
+                new double [] { 6, 7, 8, 9 },
+                new double [] { 10 }
+
+            };
+
+            Console.WriteLine("El tamaño de la matriz es: {0}, es decir, tiene {0} matrices unidimensionales dentro de si misma.", ventas2.Length);
+            Console.WriteLine("El tamaño del índice 0 de la matriz es: {0}, es decir, contiene {0} elementos.", ventas2[0].Length);
+            Console.WriteLine("El tamaño del índice 1 de la matriz es: {0}, es decir, contiene {0} elementos.", ventas2[1].Length);
+            Console.WriteLine("El tamaño del índice 2 de la matriz es: {0}, es decir, contiene {0} elementos.", ventas2[2].Length);
+            Console.WriteLine("El tamaño del índice 3 de la matriz es: {0}, es decir, contiene {0} elementos.", ventas2[3].Length);
+
+        }
+
+        static void MatrizMetodoGetLength()
+        {
+            //Cuando no se conoce el 
+        }
 
         static void Main(string[] args)
         {
@@ -229,9 +297,11 @@ namespace HolaMundo2_AhoraEsPersonal
             //MatrizMultidimensional();
             //MatrizMultiAccederPorIteracion();
             //MatrizMulti_EjercicioCalificaciones();
+            //MatrizEscalonada();
+            //MatrizPropiedadLength();
+            //MatrizMetodoGetLength();
 
-
-
+           
         }
 
 
